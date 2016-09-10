@@ -98,7 +98,7 @@ if (state = enemy_death_state) {
     exit; 
 }
 
-if (state != enemy_chase_state &amp;&amp; state != enemy_die_state) {
+if (state != enemy_chase_state) {
     state = enemy_chase_state;
     attacked = false;
     }
