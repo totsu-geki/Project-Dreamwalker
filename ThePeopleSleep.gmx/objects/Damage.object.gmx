@@ -80,8 +80,10 @@ instance_destroy();
 if (other.id != creator) {  
     other.hp -= damage; 
     other.hspd = sign(other.x-x)*knockback; 
-    other.state = other.knockback_state;
+    if (other.state != other.death_state) {
+        other.state = other.knockback_state;
    }    
+}
 </string>
           </argument>
         </arguments>
@@ -108,7 +110,10 @@ if (other.id != creator) {
 if (other.id != creator) {  
     PlayerStats.hp -= damage; 
     other.hspd = sign(other.x-x)*knockback; 
+    other.image_xscale = sign(other.hspd)*-1;
     other.state = other.knockback_state;
+    Camera.shake = knockback; 
+    Camera.alarm[0] = knockback * 3; 
    }    
 </string>
           </argument>

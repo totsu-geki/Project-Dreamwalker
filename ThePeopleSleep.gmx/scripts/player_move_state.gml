@@ -1,16 +1,26 @@
 /// player_move_state    
 // Move right
+is_friction = true;
 if (Input.right) {
+    if (hspd !=0 && image_xscale == -1) {
+        hspd *= -1
+    } 
+    
     if (hspd < maxspd) {
         hspd += spd;
     }
     image_xscale = 1;
     sprite_index = spr_player_run;
     image_speed = hspd/maxspd*1.1; 
+    is_friction = false;
 }
 
 // Move left
 if (Input.left) {
+    if (hspd !=0 && image_xscale == 1) {
+        hspd *= -1
+    } 
+    
     if (hspd > -maxspd) {
         hspd -= spd;
     }

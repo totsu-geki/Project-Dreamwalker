@@ -35,6 +35,7 @@ grav = 1.5;
 state = player_move_state;
 knockback_state = player_knockback_state;
 attacked = false;  
+death_state = noone; 
 
 
 </string>
