@@ -43,7 +43,11 @@ if (Input.dodge) {
     image_index = 0;
     state = player_dodge_state;
     }
-    
+//Jump 
+if (Input.jump)
+{ 
+    state = player_jump_state;
+}
 // Gravity  
 apply_gravity();
 
