@@ -54,13 +54,24 @@ if (Input.dodge) {
     state = player_dodge_state;
     }
 //Jump 
-if (Input.jump)
-{ 
-    state = player_jump_state;
+playerJump();
+
+if (inAir )
+{
+        sprite_index = spr_player_jump;
+        if(keyboard_check(vk_space)){
+        image_index = 0;
+        state = player_dodge_state;
+        }
 }
 // Gravity  
 apply_gravity();
 
 /// Collision Script
 move();
+if (place_meeting(x,y+1,obj_wall))
+{
+   inAir = 0;
+} 
+ 
 

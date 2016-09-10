@@ -30,13 +30,13 @@ hspd = 0;
 vspd = 0;
 maxspd = 10;
 spd = 5;
-jumpspeed = 8;
+jumpspeed = 20;
 grav = 1.5;
 state = player_move_state;
 knockback_state = player_knockback_state;
 attacked = false;  
 death_state = noone; 
-
+inAir = 0;
 
 </string>
           </argument>

@@ -50,10 +50,11 @@
       <script>scripts\move.gml</script>
       <script>scripts\apply_friction.gml</script>
       <script>scripts\apply_gravity.gml</script>
-    </scripts>
-    <scripts name="Camera States">
-      <script>scripts\camera_move_to_target.gml</script>
-      <script>scripts\camera_follow_player_state.gml</script>
+      <script>scripts\playerJump.gml</script>
+      <scripts name="Camera States">
+        <script>scripts\camera_move_to_target.gml</script>
+        <script>scripts\camera_follow_player_state.gml</script>
+      </scripts>
     </scripts>
     <script>scripts\parent_knockback_state.gml</script>
     <scripts name="Enemy States">

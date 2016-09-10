@@ -1,2 +1,6 @@
 ///apply_gravity
-if (vspd < 10) vspd+=grav;
+if (vspd < 10) 
+{
+    vspd+=grav;
+}
+
