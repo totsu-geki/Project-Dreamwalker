@@ -1,7 +1,7 @@
 ///create_spark_particle
 pt_spark = part_type_create();
 
-part_type_size(pt_spark, .1, .3, -.001 , .005);
+part_type_size(pt_spark, .1, .3, -.05 , .005);
 part_type_blend(pt_spark, true);
 part_type_orientation(pt_spark, 0, 0, 0, 0, true); 
 part_type_life(pt_spark, 4, 8); 

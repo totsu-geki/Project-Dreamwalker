@@ -29,6 +29,7 @@
 ps = part_system_create();
 part_system_depth(ps, -50);
 create_spark_particle(); 
+create_dust_particle();
 
 
 </string>
