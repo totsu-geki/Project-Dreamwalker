@@ -65,12 +65,12 @@
       <script>scripts\enemy_die_state.gml</script>
       <script>scripts\enemy_attack_state.gml</script>
     </scripts>
+    <script>scripts\create_spark_particle.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\LifeFormParent</object>
     <objects name="Player">
       <object>objects\obj_player</object>
-      <object>objects\PlayerStats</object>
     </objects>
     <object>objects\Camera</object>
     <object>objects\SolidParent</object>
@@ -78,10 +78,12 @@
     <objects name="Static Objects">
       <object>objects\StaticParent</object>
       <object>objects\Input</object>
+      <object>objects\PlayerStats</object>
     </objects>
     <object>objects\obj_enemy</object>
     <object>objects\Damage</object>
     <object>objects\EnemyParent</object>
+    <object>objects\Game</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>
