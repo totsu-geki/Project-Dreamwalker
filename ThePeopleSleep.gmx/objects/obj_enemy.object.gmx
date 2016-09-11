@@ -38,6 +38,7 @@ maxspd = 5;
 attacked = false;
 is_friction = true;  
 grav = 1;
+expr = 5; 
 </string>
           </argument>
         </arguments>
