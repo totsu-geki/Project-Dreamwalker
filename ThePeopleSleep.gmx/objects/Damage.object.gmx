@@ -83,6 +83,7 @@ if (other.id != creator) {
     if (other.state != other.death_state) {
         other.state = other.knockback_state;
    }    
+   part_particles_create(Game.ps, other.x, other.y, Game.pt_spark, 10);
 }
 </string>
           </argument>

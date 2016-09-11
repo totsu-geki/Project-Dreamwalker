@@ -25,7 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>/// Create the particle system
+ps = part_system_create();
+part_system_depth(ps, -50);
+create_spark_particle(); 
+
+
+</string>
           </argument>
         </arguments>
       </action>

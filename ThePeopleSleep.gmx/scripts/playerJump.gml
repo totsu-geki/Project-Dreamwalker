@@ -1,5 +1,5 @@
 
-jump = keyboard_check_pressed(vk_alt);
+jump = keyboard_check_pressed(vk_space);
 
 if (jump)
 {   inAir = 1;
