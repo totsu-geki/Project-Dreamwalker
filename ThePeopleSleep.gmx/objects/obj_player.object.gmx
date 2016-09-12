@@ -63,8 +63,9 @@ inAir = 0;
             <string>/// Execute the state
 script_execute(state); 
 
-///Add friction
-apply_friction(spd*2);
+//Add friction
+apply_friction(1);
+
 
 
 </string>

@@ -3,7 +3,7 @@
   <spriteName>spr_enemy_run</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-5</depth>
   <persistent>0</persistent>
   <parentName>EnemyParent</parentName>
   <maskName>spr_enemy_mask</maskName>

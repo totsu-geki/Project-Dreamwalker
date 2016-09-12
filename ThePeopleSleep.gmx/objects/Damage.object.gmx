@@ -115,6 +115,11 @@ if (other.id != creator) {
     other.state = other.knockback_state;
     Camera.shake = knockback; 
     Camera.alarm[0] = knockback * 3; 
+    
+    //Check for death
+if (PlayerStats.hp &lt;=0) {
+    instance_destroy();
+    }
    }    
 </string>
           </argument>

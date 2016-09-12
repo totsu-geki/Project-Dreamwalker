@@ -58,12 +58,9 @@ playerJump();
 
 if (inAir )
 {
-        sprite_index = spr_player_jump;
-        if(keyboard_check(vk_space)){
-        image_index = 0;
-        state = player_dodge_state;
-        }
+sprite_index = spr_player_jump;        
 }
+
 // Gravity  
 apply_gravity();
 
