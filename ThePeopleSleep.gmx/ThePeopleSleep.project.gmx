@@ -90,9 +90,11 @@
     <object>objects\EnemyParent</object>
     <object>objects\Game</object>
     <object>objects\obj_expr</object>
+    <object>objects\obj_door</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>
+    <room>rooms\room_2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
