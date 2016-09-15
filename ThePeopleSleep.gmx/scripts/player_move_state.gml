@@ -66,9 +66,18 @@ apply_gravity();
 
 /// Collision Script
 move();
-if (place_meeting(x,y+1,obj_wall))
+if place_meeting(x,y+1,obj_wall)
 {
    inAir = 0;
 } 
  
+// Door
+
+if (Input.action)
+{
+if place_meeting(x,y+1,obj_door)
+    door = true; 
+}
+
+
 

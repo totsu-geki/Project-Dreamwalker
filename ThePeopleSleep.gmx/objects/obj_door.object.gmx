@@ -25,10 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>player_x = 0;
-player_y= 0;
-door_room = rm_test;
-</string>
+            <string></string>
           </argument>
         </arguments>
       </action>

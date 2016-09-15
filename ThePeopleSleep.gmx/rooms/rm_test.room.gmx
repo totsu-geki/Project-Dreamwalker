@@ -108,7 +108,7 @@ create_static_objects();</code>
     <instance objName="obj_wall" x="1600" y="0" name="inst_DD42108D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1700" y="0" name="inst_647C1148" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1800" y="0" name="inst_EF3D5F12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door" x="1450" y="666" name="inst_BD77FB73" locked="0" code="player_x = 350;&#xA;player_y = 615;&#xA;door_room = room_2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="1450" y="666" name="inst_BD77FB73" locked="0" code="player_x = 350;&#xA;player_y = 615;&#xA;door_room = room_2;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

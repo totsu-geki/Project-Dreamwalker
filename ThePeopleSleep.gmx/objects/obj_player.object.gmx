@@ -37,6 +37,7 @@ knockback_state = player_knockback_state;
 attacked = false;  
 death_state = noone; 
 inAir = 0;
+action = false;
 
 </string>
           </argument>
